@@ -12,6 +12,10 @@
 		2831110023650F1E001C5044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283110FE23650F1E001C5044 /* Main.storyboard */; };
 		2831110223650F1F001C5044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2831110123650F1F001C5044 /* Assets.xcassets */; };
 		2831110523650F1F001C5044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2831110323650F1F001C5044 /* LaunchScreen.storyboard */; };
+		2831110D23650F2E001C5044 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831110C23650F2E001C5044 /* UIView+Gradient.swift */; };
+		2831110F23650FCA001C5044 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831110E23650FCA001C5044 /* GradientView.swift */; };
+		2831111123651111001C5044 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831111023651111001C5044 /* GradientButton.swift */; };
+		2831111323651183001C5044 /* GradientDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831111223651183001C5044 /* GradientDrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2831110123650F1F001C5044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2831110423650F1F001C5044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2831110623650F1F001C5044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2831110C23650F2E001C5044 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		2831110E23650FCA001C5044 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2831111023651111001C5044 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		2831111223651183001C5044 /* GradientDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				2831110123650F1F001C5044 /* Assets.xcassets */,
 				2831110323650F1F001C5044 /* LaunchScreen.storyboard */,
 				2831110623650F1F001C5044 /* Info.plist */,
+				2831110C23650F2E001C5044 /* UIView+Gradient.swift */,
+				2831110E23650FCA001C5044 /* GradientView.swift */,
+				2831111023651111001C5044 /* GradientButton.swift */,
+				2831111223651183001C5044 /* GradientDrawView.swift */,
 			);
 			path = Gradients;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2831111323651183001C5044 /* GradientDrawView.swift in Sources */,
+				2831111123651111001C5044 /* GradientButton.swift in Sources */,
 				283110FD23650F1E001C5044 /* ViewController.swift in Sources */,
+				2831110D23650F2E001C5044 /* UIView+Gradient.swift in Sources */,
+				2831110F23650FCA001C5044 /* GradientView.swift in Sources */,
 				283110FB23650F1E001C5044 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
